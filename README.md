@@ -18,9 +18,9 @@
 
 ## 2. Build and push Docker image 
 
-docker build -t flask-mongodb-app .
-docker tag flask-mongodb-app your_dockerhub_username/flask-mongodb-app
-docker push your_dockerhub_username/flask-mongodb-app
+###docker build -t flask-mongodb-app .
+###docker tag flask-mongodb-app your_dockerhub_username/flask-mongodb-app
+###docker push your_dockerhub_username/flask-mongodb-app
 
 
 ## 3. Kubernetes Deployment

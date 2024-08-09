@@ -26,9 +26,9 @@ docker push your_dockerhub_username/flask-mongodb-app
 ## 3. Kubernetes Deployment
 
 # Kubernetes YAML files 
-[https://github.com/vaibhavmalhotra002/flask-mogobd-app/blob/main/flask-deployment.yaml] 
-[https://github.com/vaibhavmalhotra002/flask-mogobd-app/blob/main/mongodb-statefulset.yaml]
-[https://github.com/vaibhavmalhotra002/flask-mogobd-app/blob/main/flask-hpa.yaml]
+[[Flask deployment and service](https://github.com/vaibhavmalhotra002/flask-mogobd-app/blob/main/flask-deployment.yaml)] 
+[[MongoDB StatefulSet and service](https://github.com/vaibhavmalhotra002/flask-mogobd-app/blob/main/mongodb-statefulset.yaml)]
+[[Horizontal Pod Autoscaler](https://github.com/vaibhavmalhotra002/flask-mogobd-app/blob/main/flask-hpa.yaml)]
 
 after creating these files we need to deploy them to minikube
 
